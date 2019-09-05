@@ -1,0 +1,17 @@
+body {
+	background: url(../img/1.jpg) no-repeat center;
+}
+
+h2 {
+	color: white;
+}
+
+form {
+	margin-left: 30%;
+	margin-right: 30%;
+	background-color: white;
+	opacity: 0.8;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+}

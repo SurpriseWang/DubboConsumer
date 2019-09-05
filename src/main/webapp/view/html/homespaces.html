@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet"
+	href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script
+	src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://localhost:8080/DubboConsumer/js/banner.js"></script>
+<script src="http://localhost:8080/DubboConsumer/js/category.js"></script>
+<title>在线商城-商城首页</title>
+</head>
+<body>
+	<div class="container col-lg-8 col-xs-12 col-sm-7 col-md-8"
+		style="padding: 0px;">
+		<div id="myCarousel" class="carousel slide">
+			<!-- 轮播（Carousel）指标 -->
+			<ol class="carousel-indicators">
+			</ol>
+
+			<!-- 轮播（Carousel）项目 -->
+			<div class="carousel-inner"></div>
+			<!-- 轮播（Carousel）导航 -->
+			<a class="left carousel-control" href="#myCarousel" role="button"
+				data-slide="prev"> <span
+				class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a> <a class="right carousel-control" href="#myCarousel" role="button"
+				data-slide="next"> <span
+				class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	<div class="container col-lg-8 col-xs-12 col-sm-12 col-md-12"
+		style="height: 400px; width: 900px; background-color: pink">
+		<table class="table" id="categoryTable">
+			<tr>
+				<td>已有类目</td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+	<div class="container col-lg-8 col-xs-12 col-sm-12 col-md-12"
+		style="height: 400px; width: 900px; background-color: red">
+		<table id="itemPicture">
+		</table>
+	</div>
+	<div class="container col-lg-8 col-xs-12 col-sm-12 col-md-12"
+		style="height: 400px; width: 900px; background-color:gray;">
+		<div>
+			<table id="pictures">
+			</table>
+		</div>
+		<div>
+			<table id="item">
+			</table>
+		</div>
+	</div>
+</body>
+</html>
