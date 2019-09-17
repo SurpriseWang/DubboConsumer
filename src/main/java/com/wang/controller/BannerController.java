@@ -2,6 +2,8 @@ package com.wang.controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,10 +20,11 @@ import com.wang.service.BannerService;
 public class BannerController {
 	@Autowired
 	private BannerService bannerService;
-		@ResponseBody
-		@RequestMapping("/queryAllBanner.action")
-		public List<Banner> queryAllBanner() {
-			List<Banner> banners = bannerService.queryAllBanner();
-			return banners;
-		}
+
+	@ResponseBody
+	@RequestMapping("/queryAllBanner.action")
+	public List<Banner> queryAllBanner(HttpServletRequest request) {
+		List<Banner> banners = bannerService.queryAllBanner();
+		return banners;  
+	}
 }

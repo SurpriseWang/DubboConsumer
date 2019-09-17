@@ -22,7 +22,7 @@ $(function(){
 					$("<div class='carousel-caption'>"+v.bannerName+"</div>").appendTo(innerDiv);
 					$("</div>").appendTo(inner);
 				};
-			})
+			});
 		}
 	});
 })

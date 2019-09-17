@@ -20,7 +20,7 @@ public class ItemController {
 	@ResponseBody
 	@RequestMapping("/queryItem.action")
 	public ItemVo queryItemById(Integer Id) {
-		ItemVo itemVo = itemservice.queryItems(Id);
+		ItemVo itemVo = itemservice.queryItemsByPictureId(Id);
 		return itemVo;
 	}
 }
